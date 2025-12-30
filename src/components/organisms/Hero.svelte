@@ -12,8 +12,8 @@
 
 <section id="home" class="wrapper">
 	<div>
-		<h1>afn</h1>
-		<h4>Hobbyist illustrator and designer. <br />CS @ Waterloo.</h4>
+		<h1>Milo</h1>
+		<h4>Hobbyist illustrator and designer. <br />Communication Design @ City Tech.</h4>
 		<div class="socials">
 			<Socials />
 		</div>

@@ -4,7 +4,7 @@
 
 	// i didnt write this idk
 	let getAge = () => {
-		let birthDate = new Date('2007/03/24');
+		let birthDate = new Date('2004/03/13');
 		const ageMs = Date.now() - birthDate.getTime();
 		const preciseAge = (ageMs / 31536000000).toFixed(10);
 		return preciseAge;
@@ -23,28 +23,31 @@
 	<div class="text">
 		<h2>bio</h2>
 		<p>
-			Hey there, I'm <Tooltip tip="short for affan">
-				<span>afn!</span>
+			Hey there, I'm <Tooltip tip="short for Milciades">
+				<span>Milo!</span>
 			</Tooltip> :] I'm a <Tooltip tip={age}><span>{Math.floor(Number(age))}</span></Tooltip>
-			year old digital artist and designer based in Canada. I’ve taken art seriously since
-			<span>2017</span>, and have been doodling silly anime characters since <span>2020</span>. I
-			also started to pivot into some programming, which landed me to study at the <Tooltip
-				tip="stay tuned for my WatCard progression"
+			year old digital artist and designer based in New York. I’ve taken art seriously since
+			<span>2017</span>, and have been doodling silly characters since <span>2020</span>. I also
+			started to pivot into graphic design, which landed me to study at <Tooltip
+				tip="Stay tuned for my graduation!"
 			>
-				<a href="https://cs.uwaterloo.ca/" target="_blank" rel="noreferrer">
-					<span>University of Waterloo</span>
+				<a
+					href="https://www.citytech.cuny.edu/communication-design/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<span>CUNY City Tech</span>
 				</a>
-			</Tooltip>for computer science. In my free time, I like to contribute to
-			<Tooltip tip="🤓">
+			</Tooltip>for Communication Design. In my free time, I like to do
+			<Tooltip tip="commissions are open!">
+				<!--
+				TODO: change link to commission page (instagram)-->
+
 				<a href="https://github.com/xafn" target="_blank" rel="noreferrer">
-					<span>open source</span>
+					<span>art commissions</span>
 				</a>
 			</Tooltip>
-			as a web developer. I'm most notable for working on <Tooltip tip="<3">
-				<a href="https://revanced.app" target="_blank" rel="noreferrer">
-					<span>ReVanced</span>
-				</a>
-			</Tooltip>, which is probably how you found me here.
+			and draw some of my favorite characters from games and shows I like. Thanks for stopping by!
 		</p>
 	</div>
 </section>

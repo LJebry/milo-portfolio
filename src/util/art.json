@@ -1,61 +1,59 @@
 [
     {
-        "name": "ASPIRE",
+        "name": "2side",
         "tall": true,
-        "subtitle": "WHAT IS THE VALUE OF LIFE? #1"
+        "subtitle": "angel vs devil"
     },
     {
-        "name": "idk"
+        "name": "sonic"
     },
     {
-        "name": "BL1NG!",
+        "name": "robin2099v2",
         "tall": true
     },
     {
-        "name": "811"
+        "name": "shadow"
     },  
     {
-        "name": "lonely",
+        "name": "objects",
         "tall": true,
-        "subtitle": "Acrylic Paint"
+        "subtitle": "Paper drawing"
     },
     {
-        "name": "diverge",
+        "name": "bayonetta",
         "tall": true
     },
     {
-        "name": "lost",
+        "name": "skeleton",
         "tall": true,
         "position": "right"
         
     },
     {
-        "name": "painted_red",
+        "name": "drawing",
         "tall": true
     },
     {
-        "name": "ribbons",
+        "name": "Robin2099",
         "tall": true
     },
     {
-        "name": "reminisce",
+        "name": "persona",
         "tall": true
     },
     {
-        "name": "flandre",
-        "tall": true,
-        "commission": true,
-        "subtitle": "Commissioned by Kevin T. · Do not use"
-    },
-    {
-        "name": "FADE",
+        "name": "hawkeye",
         "tall": true
     },
     {
-        "name": "drowning"
+        "name": "christmas",
+        "tall": true
     },
     {
-        "name": "doodle"
+        "name": "mommy"
+    },
+    {
+        "name": "dante"
     }
     
 ]
