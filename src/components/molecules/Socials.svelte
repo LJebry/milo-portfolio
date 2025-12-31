@@ -3,7 +3,6 @@
 
 	import { LinkedInIcon } from '@indaco/svelte-iconoir/linkedin';
 	import { MailIcon } from '@indaco/svelte-iconoir/mail';
-	import { CoffeeCupIcon } from '@indaco/svelte-iconoir/coffee-cup';
 </script>
 
 <div class="socials-container">
@@ -13,10 +12,6 @@
 
 	<Social tip="milciadesboitel18@gmail.com" link="mailto:milciadesboitel18@gmail.com">
 		<MailIcon color="var(--accent)" />
-	</Social>
-
-	<Social tip="affan" link="https://ko-fi.com/affan">
-		<CoffeeCupIcon color="var(--accent)" />
 	</Social>
 </div>
 
