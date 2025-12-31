@@ -3,6 +3,7 @@
 	import '../styles/global.scss';
 	import '../styles/fonts.scss';
 	import Cursor from '../components/atoms/Cursor.svelte';
+	import ThemeToggle from '../components/atoms/ThemeToggle.svelte';
 
 	let loading = true;
 	let playSFX: (() => void) | undefined;
@@ -68,6 +69,9 @@
 <svelte:window on:click={playSFX} />
 
 <Cursor />
+<div class="theme-toggle">
+	<ThemeToggle />
+</div>
 <span class:loading>
 	<slot />
 </span>
@@ -75,5 +79,11 @@
 <style>
 	.loading * {
 		transition: none;
+	}
+	.theme-toggle {
+		position: fixed;
+		top: 1rem;
+		right: 1rem;
+		z-index: 100;
 	}
 </style>
