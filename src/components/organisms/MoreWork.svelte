@@ -111,7 +111,7 @@
 		position: relative;
 
 		&:before {
-			@include outlineText($content: '##', $translateX: 350%, $translateY: -30%);
+			@include outlineText($content: '##', $translateX: 350%, $translateY: -60%);
 		}
 
 		@media (max-width: 600px) {
