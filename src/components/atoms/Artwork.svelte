@@ -3,6 +3,7 @@
 	import { cubicOut, quintOut } from 'svelte/easing';
 
 	export let name = '';
+	export let folder = 'art';
 	export let tall = false;
 	export let position = 'center';
 	export let commission = false;
@@ -26,7 +27,7 @@
 <button
 	class="card"
 	class:tall
-	style="background-position: {position}; background-image:url(art/{name}.webp);"
+	style="background-position: {position}; background-image:url({folder}/{name}.webp);"
 	aria-label={name}
 	on:click={() => (clicked = true)}
 	on:keypress={() => (clicked = true)}
@@ -54,7 +55,7 @@
 		out:fly={{ y: 50, easing: cubicOut, duration: 300 }}
 	>
 		<h3>{name}</h3>
-		<img src="art/{name}.webp" alt={name} />
+		<img src="{folder}/{name}.webp" alt={name} />
 		<h6>{subtitle}</h6>
 	</div>
 {/if}

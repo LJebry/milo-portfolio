@@ -11,7 +11,7 @@
 		<LinkedInIcon color="var(--accent)" />
 	</Social>
 
-	<Social tip="hey@afn.im" link="mailto:hey@afn.im">
+	<Social tip="milciadesboitel18@gmail.com" link="mailto:milciadesboitel18@gmail.com">
 		<MailIcon color="var(--accent)" />
 	</Social>
 
