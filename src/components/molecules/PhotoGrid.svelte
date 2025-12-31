@@ -1,6 +1,6 @@
 <script>
 	import Artwork from '../atoms/Artwork.svelte';
-	import photos from '../../util/photos.json'
+	import photos from '../../util/photos.json';
 </script>
 
 <div class="grid-container">
@@ -38,7 +38,7 @@
 			@include outlineText($content: '##', $translateX: -40%, $translateY: -210%);
 
 			@media screen and (max-width: 868px) {
-				@include outlineText($content: '##', $translateX: -25%, $translateY: -95%);
+				@include outlineText($content: '##', $translateX: -25%, $translateY: -105%);
 			}
 		}
 	}
