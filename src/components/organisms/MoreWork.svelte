@@ -104,16 +104,19 @@
 		justify-content: center;
 		align-items: center;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		margin-bottom: 3rem;
+		grid-template-columns: 1fr;
+		width: 100%;
+		max-width: 400px;
+		margin: 0 auto 3rem auto;
 		position: relative;
 
 		&:before {
-			@include outlineText($content: '##', $translateX: 1150%, $translateY: -30%);
+			@include outlineText($content: '##', $translateX: 350%, $translateY: -30%);
 		}
 
 		@media (max-width: 600px) {
 			grid-template-columns: 1fr;
+			width: 100%;
 		}
 
 		@media (max-width: 868px) {

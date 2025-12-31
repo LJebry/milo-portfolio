@@ -7,14 +7,14 @@
         "name": "plants"  
     },
     {
-        "name": "IMG_2088"
+        "name": "purple_flower"
     },
     {
         "name": "spider",
         "tall": true
     },
     {
-        "name": "FullSizeRender",
+        "name": "cat",
         "tall": true
     },
     {
@@ -41,6 +41,6 @@
         "name": "flowers"
     },
     {
-        "name": "IMG_3631"
+        "name": "cups"
     }
 ]
