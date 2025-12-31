@@ -1,20 +1,14 @@
 <script>
 	import Social from '../atoms/Social.svelte';
-	import { user } from '../../util/discord';
 
-	import { GitHubIcon } from '@indaco/svelte-iconoir/github';
-	import { DiscordIcon } from '@indaco/svelte-iconoir/discord';
+	import { LinkedInIcon } from '@indaco/svelte-iconoir/linkedin';
 	import { MailIcon } from '@indaco/svelte-iconoir/mail';
 	import { CoffeeCupIcon } from '@indaco/svelte-iconoir/coffee-cup';
 </script>
 
 <div class="socials-container">
-	<Social tip="xafn" link="https://github.com/xafn">
-		<GitHubIcon color="var(--accent)" />
-	</Social>
-
-	<Social tip={user.username} link={`https://discord.com/users/${user.id}`}>
-		<DiscordIcon color="var(--accent)" />
+	<Social tip="LinkedIn" link="https://www.linkedin.com/in/milciades-boitel-2a3008351/">
+		<LinkedInIcon color="var(--accent)" />
 	</Social>
 
 	<Social tip="hey@afn.im" link="mailto:hey@afn.im">
